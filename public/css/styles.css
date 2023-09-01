@@ -3,3 +3,18 @@ html, body {
     padding: 0;
     overflow: hidden;
 }
+
+main{
+    background: #5305f03a;
+    padding: 10px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+p{
+    color: #031639;
+    text-align: center;
+}
