@@ -6,14 +6,16 @@ let mTemplateRenderer = (data = {}, mDOM) => {
     //set..
     mMain.innerHTML = `
     <div>
-        <h1 style="">Hello World</h1>
-        <p>Here is all the content we have to insert</p>
-        <p>For example, <span style="color: red;">${data.data.item1.text1.val}</span> is from first parameter.</p>
+        <img style="" src="/public/templates/templates_1.svg" alt="template">
     </div>
 `;
+    // <div>
+    //     <h1>Hello World</h1>
+    //     <p>Here is all the content we have to insert</p>
+    //     <p>For example, <span style="color: red;">${data.data.item1.text1.val}</span> is from first parameter.</p>
+    //     <img style="" src="/public/templates/templates_1.svg" alt="template">
+    // </div>
 
-
-    //do your code..
     console.log("Everything okay: ", data.data.item1.text1);
 };
 
@@ -23,7 +25,7 @@ mTemplateRenderer({
         //add params based on content requirement
         "item1": {
             "text1": {
-                "val": "ans"
+                "value": "Okay"
             }
         }
     }
