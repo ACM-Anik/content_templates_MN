@@ -7,30 +7,52 @@ let mTemplateRenderer = (data = {}, mDOM) => {
     mMain.innerHTML = `
     <!-- First Template -->
     <section>
-            <nav style="text-align: center;">
-                <h1>5 basic grammar</h1>
-            </nav>
-            ${data.data.item1}
+        <nav>
+            <h1>5 basic Grammar</h1>
+        </nav>
+        ${data.data.item1}
     </section>
 
     <!-- Second Template -->
     <section>
-        <nav style="text-align: center;">
+        <nav>
             <h1>10 Idiom About Food</h1>
         </nav>
         <!-- <iframe src="/public/templates/template_2/10 IDIOMS ABOUT FOOD.pdf" width="100%" height="600"></iframe> -->
         <img src="/public/templates/template_2/10_idioms_about_food.svg" alt="second template">
     </section>
 
-    <!-- Second Template -->
+    <!-- Third Template -->
     <section>
-        <nav style="text-align: center;">
+        <nav>
+            <h1>10 Idiom About Life</h1>
+        </nav>
+        <img src="/public/templates/template_3/10_idioms_about_life.svg" alt="third template">
+    </section>
+
+    <!-- Fourth Template -->
+    <section>
+        <nav>
+            <h1>Oxford Comma.</h1>
+        </nav>
+        <img src="/public/templates/template_4/oxford_comma.svg" alt="fourth template">
+    </section>
+
+    <!-- Fifth Template -->
+    <section>
+        <nav>
+            <h1>Parallel Structure</h1>
+        </nav>
+        <img src="/public/templates/template_5/parallel_structure.svg" alt="fifth template">
+    </section>
+
+    <!-- Sixth Template -->
+    <section>
+        <nav>
             <h1>10 Idiom About Food</h1>
         </nav>
-        <!-- <iframe src="/public/templates/template_2/10 IDIOMS ABOUT FOOD.pdf" width="100%" height="600"></iframe> -->
-        <img src="/public/templates/template_2/10_idioms_about_food.svg" alt="second template">
+        <img src="/public/templates/template_6/Passive.svg" alt="sixth template">
     </section>
-    
 `;
 
     console.log("Everything okay: ", data.data.item1.text1);

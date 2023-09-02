@@ -3,23 +3,18 @@ html, body {
     padding: 0;
     /* overflow-x: hidden; */
 }
-/* 
-main{
-    background: #5305f01a;
-}
-
-h1{
-    color: blue;
-    text-align: center;
-    margin: 0;
-}
-
-p{
-    color: #031639;
-    text-align: center;
-} */
 
 img{
     height: 100%;
     width: 100%;
+}
+
+section{
+    margin-bottom: 40px;
+    padding-block: 10px;
+    background-color: rgb(226, 239, 239);
+}
+
+nav {
+    text-align: center;
 }
