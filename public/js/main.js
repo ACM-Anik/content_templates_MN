@@ -14,9 +14,23 @@ let mTemplateRenderer = (data = {}, mDOM) => {
     </section>
 
     <!-- Second Template -->
-    <div>
-        <img src="/public/templates/template_2" alt="Second Template">
-    </div>
+    <section>
+        <nav style="text-align: center;">
+            <h1>10 Idiom About Food</h1>
+        </nav>
+        <!-- <iframe src="/public/templates/template_2/10 IDIOMS ABOUT FOOD.pdf" width="100%" height="600"></iframe> -->
+        <img src="/public/templates/template_2/10_idioms_about_food.svg" alt="second template">
+    </section>
+
+    <!-- Second Template -->
+    <section>
+        <nav style="text-align: center;">
+            <h1>10 Idiom About Food</h1>
+        </nav>
+        <!-- <iframe src="/public/templates/template_2/10 IDIOMS ABOUT FOOD.pdf" width="100%" height="600"></iframe> -->
+        <img src="/public/templates/template_2/10_idioms_about_food.svg" alt="second template">
+    </section>
+    
 `;
 
     console.log("Everything okay: ", data.data.item1.text1);
@@ -25,9 +39,7 @@ let mTemplateRenderer = (data = {}, mDOM) => {
 mTemplateRenderer({
     "meta": {},
     "data": {
-        //add params based on content requirement
         "item1": `
-            
             <div style="background: #797272; padding: 40px;">
                 <img style="width: 100%; margin-bottom: 30px;" src="/public/templates/template_1/single_img/header.svg" alt="header img">
 
