@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dd.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Drag & Drop -->
+    <!-- ----------- -->
+    <section class="draggable-elements">
+        <i class="fas fa-cat draggable" draggable="true" id="cat" style="color: #0fd6e1;"></i>
+        <i class="fas fa-fish draggable" draggable="true" id="fish" style="color: #1155e7;"></i>
+        <i class="fas fa-dog draggable" draggable="true" id="dog" style="color: #e3b210;"></i>
+        <i class="fas fa-hippo draggable" draggable="true" id="hippo" style="color: #6b11e9;"></i>
+        <i class="fas fa-frog draggable" draggable="true" id="frog" style="color: #32df0c;"></i>
+        <i class="fas fa-dove draggable" draggable="true" id="dove" style="color: #e615ed;"></i>
+        <i class="fas fa-horse draggable" draggable="true" id="horse" style="color: #310617;"></i>
+        <i class="fas fa-spider draggable" draggable="true" id="spider" style="color: #e70c0c;"></i>
+      </section>
+    <section class="droppable-elements">
+        <div class="droppable" data-draggable-id="horse"><span>Horse</span></div>
+        <div class="droppable" data-draggable-id="frog"><span>Frog</span></div>
+        <div class="droppable" data-draggable-id="dove"><span>Bird</span></div>
+        <div class="droppable" data-draggable-id="cat"><span>Cat</span></div>
+        <div class="droppable" data-draggable-id="spider"><span>Spider</span></div>
+        <div class="droppable" data-draggable-id="fish"><span>Fish</span></div>
+        <div class="droppable" data-draggable-id="dog"><span>Dog</span></div>
+        <div class="droppable" data-draggable-id="hippo"><span>Hippo</span></div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="./dd.js"></script>
+    
+</body>
+
+</html>
