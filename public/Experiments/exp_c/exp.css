@@ -1,21 +1,27 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#resources-box{
+    /* border: 2px solid; */
+    /* height: 100vh; */
+    padding: 0;
     margin: 0;
 }
 
-.canvas {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #ccc;
+#canvas {
+    width: 300px;
+    height: 100vh;
+    /* border: 1px solid #eee; */
+    background-color: #f4f2f2;
+    padding: 10px;
+    margin: 0;
     position: relative;
     user-select: none;
 }
 
 img{
     width: 150px;
-    
     cursor: move;
 }

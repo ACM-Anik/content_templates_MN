@@ -3,6 +3,7 @@ let offsetX, offsetY;
 let selectedElement = null;
 
 const canvas = document.getElementById('canvas');
+const resourcesBox = document.getElementById('resources-box');
 
 canvas.addEventListener('mousedown', (event) => {
     event.preventDefault();
@@ -32,7 +33,7 @@ canvas.addEventListener('mousedown', (event) => {
     selectedElement.style.left = `${event.clientX - offsetX}px`;
     selectedElement.style.top = `${event.clientY - offsetY}px`;
 
-    document.body.appendChild(selectedElement);
+    resourcesBox.appendChild(selectedElement);
 });
 
 document.addEventListener('mousemove', (event) => {
@@ -44,8 +45,8 @@ document.addEventListener('mousemove', (event) => {
 
 document.addEventListener('mouseup', () => {
     if (isDragging && selectedElement) {
-        // Remove the element from the body and reposition it in the canvas
-        document.body.removeChild(selectedElement);
+        // Remove the element from the body and reposition it in the canvas:--
+        resourcesBox.removeChild(selectedElement);
         selectedElement.style.position = 'absolute';
         selectedElement.style.pointerEvents = 'auto';
         canvas.appendChild(selectedElement);
