@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0085f132;
+}
+
+.container {
+    background-color: #03e2ff53;
+    padding: 20px;
+    margin-top: 40px;
+    width: 700px;
+    margin-inline: auto;
+    border-radius: 10px;
+}
+
+.draggable {
+    cursor: move;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px 2px #1da0f281;
+    transition: all 1s;
+}
+
+.draggable.dragging {
+    opacity: 100%;
+}
+
+
+
+
+
+
+
+
+/* Background Styles Only */
+
+.side-links {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.side-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+    width: 180px;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.side-link-youtube {
+    background-color: red;
+}
+
+.side-link-twitter {
+    background-color: #1DA1F2;
+}
+
+.side-link-github {
+    background-color: #6e5494;
+}
+
+.side-link-text {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.side-link-icon {
+    color: white;
+    font-size: 30px;
+}
